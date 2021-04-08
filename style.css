@@ -1,0 +1,63 @@
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 1000px
+}
+
+body {
+
+    text-align: center;
+    font-family: Comic Sans MS;
+    background: linear-gradient(#55ebeb 0%, #23ae 100%);
+
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-shadow: 2px 2px #F8BBDO;
+    color: white;
+    font-size: 40px
+}
+
+#bio {
+
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+
+}
+
+.menu {
+    list-style: none;
+    position: fixed;
+    top: 5px;
+    left: 10px;
+    color: black;
+    cursor: pointer;
+
+
+}
+
+
+
+.links {
+    float: right;
+    font-family: Comic Sans MS;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-size: 20px;
+
+}
+
+.links:hover {
+    background-color: yellow;
+
+}
+
+h3 {
+    text-shadow: 2px 2px #F8BBDO;
+    color: white;
+    font-size: 30px
+}
