@@ -9,7 +9,6 @@ body {
     text-align: center;
     font-family: Comic Sans MS;
     background: linear-gradient(#55ebeb 0%, #23ae 100%);
-
     background-repeat: no-repeat;
 }
 
@@ -41,18 +40,17 @@ h1 {
 
 
 .links {
-    float: right;
     font-family: Comic Sans MS;
     padding-top: 5px;
     padding-left: 9px;
     padding-right: 9px;
     padding-bottom: 5px;
-    font-size: 20px;
+    font-size: 30px;
 
 }
 
 .links:hover {
-    background-color: yellow;
+    text-decoration: underline;
 
 }
 
@@ -60,4 +58,39 @@ h3 {
     text-shadow: 2px 2px #F8BBDO;
     color: white;
     font-size: 30px
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+img {
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+
+}
+
+
+img:hover {
+    transform: scale(0.9)
+}
+
+a {
+    font-size: 20px;
+    text-shadow: none !important;
+    color: blue !important;
+    font-family: Comic Sans MS !important;
+    text-decoration: none !important;
+
+}
+
+.contact_1:hover {
+
+    text-decoration: underline !important;
+
+
+
+
+
 }
